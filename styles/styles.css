@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: sans-serif;
+    font-weight: 600;
+
+    width: 100vw;
+    height: 100vh;
+    background-color: #4677f7;
+}
+
+.container {
+    width: 25rem;
+    height: 40rem;
+    padding: 1.5rem;
+    background-color: #fff;
+    position: relative;
+}
+
+.container__headings {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+}
+
+.icon {
+    fill: #cecece;
+}
+
+.container__distance-covered {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    right: -.7rem;
+    color: #fff;
+    background-image: linear-gradient(rgba(115, 147, 233, 0.7), rgba(115, 147, 233, 0.7)), url(../images/map.png);
+    box-shadow: 0 .5rem .5rem 0  rgba(0, 0, 0, 0.2) ;
+    height: 8rem;
+    width: 26.5rem;
+    border-radius: .2rem;
+    padding: 2rem 1rem;
+}
+
+.container__displacement {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.sign {
+    display: flex;
+    align-items: center;
+}
+
+.car {
+    width: 1rem;
+    position: absolute;
+    top: 1.3rem;
+    right: 14.5rem;
+}
+
+.dots {
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.line-left {
+    width: 3rem;
+    height: 2px;
+    background-color: #fff;
+}
+
+.line-right {
+    width: 7rem;
+    height: 2px;
+    background-color: #cecece;
+}
+
+.velocity {
+    display: flex;
+    align-self: flex-start;
+    gap: 5rem;
+    margin: 1rem;
+}
+
+.container__map {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    background-color: #4677f7;
+    color: #fff;
+    top: 11.5rem;
+    left: 16rem;
+    border-radius: .3rem;
+    padding: 0 .5rem 0 .5rem;
+    width: 8rem;
+    height: 2.5rem;
+}
+
+.container-direction {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.streetview {
+    background-image: url(../images/streetview.jpg);
+    width: 23.5rem;
+    height: 4rem;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    display: flex;
+}
+
+.container__direction {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+span {
+    color: #cecece;
+}
